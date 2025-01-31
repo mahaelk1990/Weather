@@ -3,35 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="Stylesheet" href="Src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" value="Search" />
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, Scattered Clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>⛅ 12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/mahaelk1990" target="_blank"> Maha </a> code
-      hosted on
-      <a href="https://github.com/mahaelk1990/Weather" target="_blank">
-        Github
-      </a>
-      website hosted on
-      <a href="https://myweather-app-meteo.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <input type="search" placeholder="Enter a city..." required />
+        <input type="submit" value="Search" />
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, Scattered Clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/mahaelk1990" target="_blank"> Maha </a> code
+        hosted on
+        <a href="https://github.com/mahaelk1990/Weather" target="_blank">
+          Github
+        </a>
+        website hosted on
+        <a href="https://myweather-app-meteo.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
